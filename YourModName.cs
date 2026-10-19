@@ -5,13 +5,13 @@ using BepInEx;
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
 #pragma warning restore CS0618
 
-namespace YourModName
+namespace ChaoWorld
 {
 	[BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
 	public class YourModNamePlugin : BaseUnityPlugin
 	{
-		public const string PLUGIN_GUID = "yourname.yourmodname";
-		public const string PLUGIN_NAME = "Your Mod Name";
+		public const string PLUGIN_GUID = "Chucheloid.ChaoWorld";
+		public const string PLUGIN_NAME = "ChaoWorld";
 		public const string PLUGIN_VERSION = "0.1.0";
 
 		private void Awake()
